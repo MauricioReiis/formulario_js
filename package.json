@@ -1,0 +1,28 @@
+{
+  "name": "desafio_formulario_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/index.js",
+  "homepage": "/build",
+  "scripts": {
+    "start": "webpack serve --mode development --config webpack.config.js",
+    "start-prod": "webpack serve --mode production --config webpack.config.js",
+    "build-dev": "webpack --mode development --config webpack.config.js",
+    "build-prod": "webpack --mode production --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "lite-server": "^2.6.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.52.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Traduzir sass",
+      "type": "shell",
+      "command": "sass --watch ./app/styles/index.scss ./app/index.css"
+    }
+  ]
+}

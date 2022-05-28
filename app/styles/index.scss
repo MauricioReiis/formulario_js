@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Nunito&display=swap");
+@import "./form.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceef2;
+
+  width: 100vw;
+  height: 100vh;
+}

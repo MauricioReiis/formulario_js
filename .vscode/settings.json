@@ -1,10 +1,11 @@
 {
   "files.exclude": {
     "package-lock.json": true,
-    "package.json": false,
+    "package.json": true,
     "app/index.css.map": true,
     "node_modules": true,
-    ".gitignore": false,
-    "index.css": true
+    ".gitignore": true,
+    "index.css": true,
+    "webpack.config.js": false
   }
 }

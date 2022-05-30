@@ -1,0 +1,49 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 17vh;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+
+  #footer-label {
+    line-height: 1.2em;
+    padding-right: 2em;
+    height: 4.5vh;
+    text-shadow: 0.1em 0.4em 1.5em #000000;
+  }
+
+  div {
+    align-self: flex-end;
+  }
+
+  #btn {
+    border: 0;
+    background: transparent;
+    border: solid 2px #0dbdbd;
+    background: #0dbdbd;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    height: 3.1em;
+    width: 4vw;
+    cursor: pointer;
+    font-size: 0.9em;
+    box-shadow: 0.1em 0.1em 0.3em #000000;
+
+    &:hover {
+      font-weight: bold;
+      border: transparent;
+      color: #000000;
+    }
+  }
+
+  #checkbox {
+    border-radius: 5px;
+    background: #0dbdbd;
+
+    &:checked {
+      background: #0dbdbd;
+    }
+  }
+}

@@ -5,37 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="index.js" defer></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="assets/ico-logo.ico" />
     <title>Formulário</title>
   </head>
-  <body>
-      <section id="form">
-            <form>
-                <div>
-                    <img src="./assets/logo.png" alt="Logo"> 
-                    <h1>Intern Sign Up</h1>
-                </div>
-                <div class="input-group">
-                    <label for="name">Full Name *</label>
-                    <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div class="input-group">
-                    <label for="email">E-mail *</label>
-                    <input type="email" name="email" id="email" placeholder="foo@bar.com" />
-                </div>
-                <div class="input-group">
-                    <label for="password">Password *</label>
-                    <input type="password" name="password" id="password" placeholder="Digite sua senha" />
-                </div>
-                <div class="input-group">
-                    <label for="birthday">Birthday</label>
-                    <input type="date" name="birthday" id="birthday" />
-                </div>
-            </form>
-      </section>
-
-      <section>
-
-      </section id="sucess">
+  <body onselectstart="return false">
+    <section id="form">
+      <form id="content-form">
+        <div id="content-main">
+          <img draggable="false" src="./assets/logo.png" alt="Logo" />
+          <h1>Intern Sign Up</h1>
+        </div>
+        <div id="input-first" class="input-group">
+          <label for="name">Full Name *</label>
+          <input type="text" name="name" id="name" placeholder="Name" />
+        </div>
+        <section class="split-session">
+          <div class="input-group">
+            <label for="email">E-mail *</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="foo@bar.com"
+            />
+          </div>
+          <div class="input-group">
+            <label for="phone">Phone </label>
+            <input
+              type="number"
+              name="Phone"
+              id="phone"
+              placeholder="(83) 00000-0000"
+            />
+          </div>
+        </section>
+        <section class="split-session">
+          <div class="input-group">
+            <label for="password">Password *</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="input-group">
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="birthday" />
+          </div>
+        </section>
+        <footer>
+          <div id="footer-label">
+            <label>
+              <input type="checkbox" id="checkbox" />
+              <span>I accept the terms and privacy</span>
+            </label>
+          </div>
+          <div>
+            <button id="btn">Register</button>
+          </div>
+        </footer>
+      </form>
+    </section>
+    <section id="sucess">
+      <main>
+        <button>sucess</button>
+      </main>
+    </section>
   </body>
 </html>

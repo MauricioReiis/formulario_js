@@ -3,15 +3,107 @@
   display: flex;
   justify-content: center;
   background-color: #ffffff;
-  width: 40vw;
+  width: 30vw;
   height: 80vh;
   border-radius: 20px;
   font-weight: 400;
+}
+#form #content-form {
+  width: 26vw;
 }
 #form h1 {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 2.5rem;
+}
+#form #content-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1.5em;
+}
+#form #content-main img {
+  width: 213px;
+  height: 124px;
+}
+#form #input-first {
+  margin-top: 0;
+}
+#form .input-group {
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+#form .input-group input {
+  border: 0;
+  border: 2px solid #aaaaaa;
+  border-radius: 4px;
+  padding-left: 0.8em;
+  height: 40px;
+  font-size: 1em;
+}
+#form .input-group #phone {
+  width: 7vw;
+}
+#form .input-group #email {
+  width: 16vw;
+}
+#form .split-session {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+#form .split-session #password {
+  width: 16vw;
+}
+#form .split-session #birthday {
+  width: 7.2vw;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 17vh;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+footer #footer-label {
+  line-height: 1.2em;
+  padding-right: 2em;
+  height: 4.5vh;
+  text-shadow: 0.1em 0.4em 1.5em #000000;
+}
+footer div {
+  align-self: flex-end;
+}
+footer #btn {
+  border: 0;
+  background: transparent;
+  border: solid 2px #0dbdbd;
+  background: #0dbdbd;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  height: 3.1em;
+  width: 4vw;
+  cursor: pointer;
+  font-size: 0.9em;
+  box-shadow: 0.1em 0.1em 0.3em #000000;
+}
+footer #btn:hover {
+  font-weight: bold;
+  border: transparent;
+  color: #000000;
+}
+footer #checkbox {
+  border-radius: 5px;
+  background: #0dbdbd;
+}
+footer #checkbox:checked {
+  background: #0dbdbd;
 }
 
 body {

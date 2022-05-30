@@ -6,6 +6,6 @@
     "node_modules": true,
     ".gitignore": true,
     "index.css": true,
-    "webpack.config.js": false
+    "webpack.config.js": true
   }
 }

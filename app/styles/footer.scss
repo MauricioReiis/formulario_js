@@ -10,6 +10,7 @@ footer {
     padding-right: 2em;
     height: 4.5vh;
     text-shadow: 0.1em 0.4em 1.5em #000000;
+    color: #ffffff;
   }
 
   div {
@@ -38,9 +39,17 @@ footer {
     }
   }
 
-  #checkbox {
-    border-radius: 5px;
-    background: #0dbdbd;
+  #checkbox input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
 
     &:checked {
       background: #0dbdbd;

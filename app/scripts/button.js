@@ -11,9 +11,7 @@ const button = () => {
     if (true) {
       form.style.display = "none";
       sucess.style.display = "block";
-      sucess.style.display = "block";
-      sucess.style.display = "block";
-      sucess.style.display = "block";
+
       console.log("logou");
     }
   });

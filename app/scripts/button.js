@@ -13,6 +13,7 @@ const button = () => {
       sucess.style.display = "block";
 
       console.log("logou");
+      console.log("logou");
     }
   });
 };
